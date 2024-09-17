@@ -86,3 +86,25 @@ alert('Bienvenido Isaac')
 //         console.log('La persona ' +personas[i] + ' tiene '+ edades[i] + ' años');
 //     }
 // }
+
+// let nombres = ['Andrea']
+// console.log(nombres)
+// nombres.push('Jaime')
+// nombres.push('Luisa')
+// nombres.push('Camila')
+// console.log(nombres)
+// nombres.unshift('Camilo')
+// nombres.unshift('Karen')
+// console.log(nombres)
+// nombres.pop()
+// nombres.pop()
+// console.log(nombres)
+// nombres.shift()
+// console.log(nombres)
+
+
+let num = [1,2,3,4,5,6,7,8,9]
+num.splice(0,2)
+console.log(num)
+num.splice(3, 1)
+console.log(num)

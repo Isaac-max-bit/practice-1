@@ -14,6 +14,8 @@ Los arreglos están asociados al ciclo for
   -pop() método que elimina la ultima posición 
   - shift() método que elimina la primera posición
   -unshift() método que agrega un elemento a la primera posición
+  -splice(posición) método para eliminar un elemento seleccionado
+
 
   -map(), find(), forEach(), filter(), some(), join(), split() 
 2-Objetos
