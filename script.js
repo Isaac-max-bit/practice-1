@@ -60,7 +60,7 @@
 // }
 
 
-alert('Bienvenido Isaac')
+// alert('Bienvenido Isaac')
 
 // let personas = ['Camila', 'Luisa','Felipe','Ana','Tomas','Andrea']
 // let edades = [17, 22, 35, 15, 23, 18]
@@ -103,8 +103,19 @@ alert('Bienvenido Isaac')
 // console.log(nombres)
 
 
-let num = [1,2,3,4,5,6,7,8,9]
-num.splice(0,2)
-console.log(num)
-num.splice(3, 1)
-console.log(num)
+// let num = [1,2,3,4,5,6,7,8,9]
+// num.splice(0,2)
+// console.log(num)
+// num.splice(3, 1)
+// console.log(num)
+
+
+
+const arrayConstructor = new Array(10 , 1);
+console.log(arrayConstructor)
+
+const arrayOF = Array.of(10);
+console.log("Array OF: " + arrayOF);
+
+const arrayFrom = Array.from("String");
+console.log(arrayFrom);
