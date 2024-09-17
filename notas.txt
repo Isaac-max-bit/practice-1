@@ -1,5 +1,20 @@
 Estructura de datos (JavasScript)
 1-Arreglos (vectores)
 simulación de datos (almacenamiento)
+tamaño o longitud -> Dado por la cantidad de elementos dentro de si 
+posición -> Esta dado por la ecuación n-1, donde n es el elemento
+Los arreglos están asociados al ciclo for 
+  --> Recorrido de un arreglo: interación dentro del arreglo por cada 
+  elemento: buscar contenido y realizar alguna operación matemática o booleana 
+  --> LLenando de un arreglo: interración dentro del arreglo por cada elemento: 
+  agregar contenido a una posición del arreglo
+
+  Métodos  de los arreglos
+  -push() método que agrega un elemento a la ultima posición 
+  -pop() método que elimina la ultima posición 
+  - shift() método que elimina la primera posición
+  -unshift() método que agrega un elemento a la primera posición
+
+  -map(), find(), forEach(), filter(), some(), join(), split() 
 2-Objetos
 Agrupación de infromación de un mismo elemento 
