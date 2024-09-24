@@ -1,3 +1,5 @@
+alert('Hola Isaac, Es hora de practicar')
+
 // let num = [1,5,3,6,2,8,9,10,20,4,5,6]
 // if(num[0] == 1){
 //     console.log('Numeros iguales')
@@ -111,11 +113,89 @@
 
 
 
-const arrayConstructor = new Array(10 , 1);
-console.log(arrayConstructor)
+// const arrayConstructor = new Array(10 , 1);
+// console.log(arrayConstructor)
 
-const arrayOF = Array.of(10);
-console.log("Array OF: " + arrayOF);
+// const arrayOF = Array.of(10);
+// console.log("Array OF: " + arrayOF);
 
-const arrayFrom = Array.from("String");
-console.log(arrayFrom);
+// const arrayFrom = Array.from("String");
+// console.log(arrayFrom);
+
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8]
+
+// num.map(function(numero){
+//     console.log(numero * 4)
+//     if(numero % 2 == 0){
+//         console.log("El numero es par ")
+//     }
+// })
+
+
+// num.map((numero)=>{
+//     console.log(numero)
+// })
+
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8]
+
+// let numerosPares =  num.map(function(numero){
+//     return numero * 4
+//     // console.log(numero * 4)
+//     // if(numero % 2 == 0){
+//     //     return numero 
+//     // }
+// })
+
+// console.log(numerosPares)
+// console.log(num)
+
+// let nombres = ['Ana', 'Camila', 'Andrea', 'Felipe'];
+// let nombresCompletos = nombres.map((nombre) => {
+//     return nombre + ' Zapata';
+// });
+
+// console.log(nombresCompletos);
+
+
+
+// let nombres = ['Luisa','Camila','Ana','Luisa','Miguel',
+//     'Adriana','Mateo','Felipe','Camila']
+
+// let nombreTeclado = prompt('Ingrese el nombre a buscar: ')
+
+//     let nombresNuevos = nombres.filter((nombre)=>{
+//         if(nombre == nombreTeclado) {
+//             return nombre
+//         }
+            
+//     })
+
+//     console.log(nombresNuevos)
+
+
+// let nombres = ['Luisa','Camila','Ana','Luisa','Miguel',
+//     'Adriana','Mateo','Felipe','Camila']
+
+// let nombreNuevo  = nombres.find((nombre) => {
+//     if(nombre == 'Ana'){
+//         return nombre
+//     }
+// })
+
+// console.log(nombreNuevo)
+
+
+
+let nombres = ['Luisa','Camila','Ana','Luisa','Miguel',
+    'Adriana','Mateo','Felipe','Camila']
+
+let nombreNuevo  = nombres.filter((nombre) => {
+    if(nombre == 'Ana'){
+        return nombre
+    }
+})
+
+console.log(nombreNuevo)
+

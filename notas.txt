@@ -14,7 +14,10 @@ Los arreglos están asociados al ciclo for
   -pop() método que elimina la ultima posición 
   - shift() método que elimina la primera posición
   -unshift() método que agrega un elemento a la primera posición
-  -splice(posición) método para eliminar un elemento seleccionado
+  -splice(posición)  método para eliminar un elemento seleccionado
+  -map() método que recorre un arreglo, aplica una condición y retorna un nuevo arreglo 
+  con la nueva información. El metodo map es no mutable, significa que no ambia el valor original del arreglo 
+
 
 
   -map(), find(), forEach(), filter(), some(), join(), split() 
