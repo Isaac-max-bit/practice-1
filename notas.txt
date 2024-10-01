@@ -1,25 +1,28 @@
-Estructura de datos (JavasScript)
-1-Arreglos (vectores)
-simulación de datos (almacenamiento)
-tamaño o longitud -> Dado por la cantidad de elementos dentro de si 
-posición -> Esta dado por la ecuación n-1, donde n es el elemento
-Los arreglos están asociados al ciclo for 
-  --> Recorrido de un arreglo: interación dentro del arreglo por cada 
-  elemento: buscar contenido y realizar alguna operación matemática o booleana 
-  --> LLenando de un arreglo: interación dentro del arreglo por cada elemento: 
-  agregar contenido a una posición del arreglo
+Estructuras de datos (JavaScript)
+1 - Arreglos (vectores)
+    Simulación de datos (almacenamiento)
+    Tamaño o Longitud -> Dado por la cantidad de elementos dentro de si
+    Posición -> Esta dado por la ecuación n-1, donde n es el elemento
+    Los arreglos están asociados al ciclo for
+        --> Recorrido de un arreglo: interación dentro del arreglo por cada elemento: buscar contenido y realizar alguna operación matemática o booleana
+        --> LLenado de un arreglo: interación dentro del arreglo por cada elemento: agregar contenido a una posición del arreglo
+    Métodos de los arreglos
+        -push(): método que agrega un elemento a la ultima posición
+        -pop(): método que elimina la ultima posición
+        -shift(): método que elimina la primera posición
+        -unshift(): método que agrega un elemento a la primera posición
+        -splice(posicion, cantidad de elementos): método para eliminar un elemento seleccionado
+        -map() -> método que recorre un arreglo, aplica una condición y retorna un nuevo arreglo con la nueva información. El método map es no mutable, significa que no cambia el valor original del arreglo
+        -find() -> -> método que recorre un arreglo, aplica una condición y retorna un elemento. El método filter es no mutable, significa que no cambia el valor original del arreglo  
+        forEach(), 
+        filter() -> método que recorre un arreglo, aplica una condición y retorna un nuevo arreglo con la nueva información. El método filter es no mutable, significa que no cambia el valor original del arreglo 
+        some()
+        -join(), split()
+2 - Objetos
+    Agrupación de información de un mismo elemento, par de datos: 
+    
+    par de datos -> "llave": valor. Un objeto podrá tener multiples pares de datos
 
-  Métodos  de los arreglos
-  -push() método que agrega un elemento a la ultima posición 
-  -pop() método que elimina la ultima posición 
-  - shift() método que elimina la primera posición
-  -unshift() método que agrega un elemento a la primera posición
-  -splice(posición)  método para eliminar un elemento seleccionado
-  -map() método que recorre un arreglo, aplica una condición y retorna un nuevo arreglo 
-  con la nueva información. El metodo map es no mutable, significa que no ambia el valor original del arreglo 
-
-
-
-  -map(), find(), forEach(), filter(), some(), join(), split() 
-2-Objetos
-Agrupación de infromación de un mismo elemento 
+    literales -> Es construir los objetos directos con sus
+    atributos
+    constructor -> Crear un objeto que parte de una clase o función superior  (instancia de objetos)

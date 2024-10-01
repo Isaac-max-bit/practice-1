@@ -1,4 +1,4 @@
-alert('Hola Isaac, Es hora de practicar')
+// alert('Hola Isaac, Es hora de practicar')
 
 // let num = [1,5,3,6,2,8,9,10,20,4,5,6]
 // if(num[0] == 1){
@@ -188,14 +188,87 @@ alert('Hola Isaac, Es hora de practicar')
 
 
 
-let nombres = ['Luisa','Camila','Ana','Luisa','Miguel',
-    'Adriana','Mateo','Felipe','Camila']
+// let nombres = ['Luisa','Camila','Ana','Luisa','Miguel',
+//     'Adriana','Mateo','Felipe','Camila']
 
-let nombreNuevo  = nombres.filter((nombre) => {
-    if(nombre == 'Ana'){
-        return nombre
-    }
-})
+// let nombreNuevo  = nombres.filter((nombre) => {
+//     if(nombre == 'Ana'){
+//         return nombre
+//     }
+// })
 
-console.log(nombreNuevo)
+// console.log(nombreNuevo)
 
+// let objetoUno = { /* Objeto literal*/
+//     "nombre": 'Jaime',
+//     "id": 1013045633
+// }; 
+
+// let objetoDos = { /* Objeto literal*/
+//     "nombre": 'Isaac',
+//     "id": 1018223501
+// };
+
+// let nuevoArreglo = [objetoUno, 'Ana', objetoDos, 'Luisa'];
+
+// for(let index = 0; index < nuevoArreglo.length; index++){
+//     if(nuevoArreglo[index].id === 1013045633){  // Cambié aquí a "===" para comparar correctamente
+//         console.log('Encontrado:', nuevoArreglo[index]);
+//     }
+// }
+
+
+// let persona = {
+//     "nombre": 'Isaac Garcia',
+//     "edad": 20,
+//     "profesion": 'developer',
+//     "direccion": {
+//         "calle": 18,
+//         "carrera": 45,
+//         "barrio": "castilla"
+//     },
+//     "hobbies": ['caminar', 'escuchar musica','jugar videojuegos', 'leer']
+// }
+
+// let personaDos = {
+//     "nombre": 'Camilo Giraldo',
+//     "edad": 47,
+//     "profesion": 'contador',
+//     "direccion": {
+//         "calle": 33,
+//         "carrera": 49,
+//         "barrio": "Niquia"
+//     },
+//     "hobbies": ['caminar', 'escuchar musica']
+// }
+
+// console.log(persona)
+// console.log(personaDos)
+
+
+function Persona(nombre, edad, profesion) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.profesion = profesion;
+}
+
+let nuevoObjetoUno = new Persona('Isaac', 20, 'ING sistemas');
+let nuevoObjetoDos = new Persona('Camilo', 47, 'ING software');
+
+console.log(nuevoObjetoUno, nuevoObjetoDos);
+
+
+
+let persona = {
+    "nombre" : 'Isaac',
+    "edad" : '20',
+    "profesion" : 'UX/UI',
+}
+
+let personaDos = {
+    "nombre" : 'Camilo',
+    "edad" : '47',
+    "profesion" : 'UX/UI',
+}
+
+console.log(persona, personaDos)
